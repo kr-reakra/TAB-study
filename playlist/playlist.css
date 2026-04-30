@@ -1,0 +1,103 @@
+body {
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fdf6ff;
+    width: 350px;
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.album-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.album-art {
+    width: 150px;
+    height: 150px;
+    background-color: #fbbf24;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.album-info h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.play-btn {
+    background: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.circle-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: white;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.thumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.thumb.red { background-color: #ef4444; }
+.thumb.pink { background-color: #fbcfe8; }
+.thumb.blue { background-color: #2563eb; }
+.thumb.gray { background-color: #71717a; }
+
+/* 텍스트 정렬 */
+.song-info h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.song-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.song-info h4 { margin: 0; }
+.song-info p { margin: 0; font-size: 12px; color: #666; }

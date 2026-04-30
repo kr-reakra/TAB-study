@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: tomato; 
+}
+
+.big-box {
+    width: 200px;  
+    height: 200px; 
+    background-color: wheat; 
+    padding: 20px; 
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+
+.small-box {
+    background-color: teal;
+    width: 40px;
+    height: 40px;
+}
+
+.small-box.middle {
+    width: 100%;
+    height: 60px;
+    border: 2px dashed #2c5d5d;
+}
